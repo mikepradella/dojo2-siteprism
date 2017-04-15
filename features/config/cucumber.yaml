@@ -1,0 +1,9 @@
+# config/cucumber.yml
+##YAML Template
+
+default: --no-source --color --formart pretty
+
+diario: -t @daily -t @importante
+
+
+regressao: -t @importante -f html  -o evidencia.html

@@ -11,18 +11,18 @@ Contexto: Usuario acessa home do site
 	Dado eu esteja logado no site SuiteCRM
 
 #@teste
-@importante
+#@importante
 Cenario: Cadastar nova tarefa no sistemas	
 	Quando navego ate tela create task 
 	E preencho os dados obrigatorios
 	Entao validar tarefa cadastrada
 #@teste
-@importante
+#@importante
 Cenario: Alterar tarefa existente		
 	Quando navego ate tela create task 
 	E altero os dados obrigatorios
 	Entao validar tarefa alterada
-@importante
+#@importante
 #@teste
 Cenario: Excluir tarefa 		
 	Quando navego ate tela create task

@@ -5,6 +5,7 @@ require 'capybara'
 require 'capybara/cucumber'
 require 'pry'
 require 'site_prism'
+require 'capybara-screenshot/cucumber'
 
 
 #configurando o driver do capybara
@@ -21,5 +22,5 @@ Capybara.default_max_wait_time = 15
  # maximizar a tela ao iniciar  o teste
 Capybara.page.driver.browser.manage.window.maximize
 
-
+Capybara.save_path = "C:\dojo2" 
 
